@@ -1,1 +1,1 @@
-export const serverURL = "http://localhost:3000/api/graphql";
+export const serverURL = process.env.SERVER_URL;
